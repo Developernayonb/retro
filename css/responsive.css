@@ -1,0 +1,88 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+  .section-title p:after {
+    left: 450px;
+}
+
+ .service-content p:after {
+    left: 125px;
+}  
+
+    
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu ul li a {
+    padding: 48px 10px;
+}
+.section-title p:after {
+    left: 325px;
+}
+
+.service-content p:after {
+    left: 75px;
+}  
+   .service-content p {
+    font-size: 10px;
+    font-weight: 600;
+} 
+    
+
+}
+
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ .slider-content h2 {
+    font-size: 44px;
+    margin-bottom: 5px;
+}
+    .slider-content p {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+ .section-title p:after {
+    left: 175px;
+}
+ .section-title p {
+    margin-bottom: 60px;
+}   
+ .work-img img {
+    margin-bottom: 9px;
+}   
+    
+.service-content {
+    padding: 10px 50px;
+}
+ .section-clain p {
+    margin-bottom: -50px;
+}  
+ .section-project p {
+    margin-bottom: 0px;
+    font-size: 11px;
+}     
+ .subscribe-content h4 {
+    margin-bottom: 10px;
+} 
+ .email-content h4 {
+    margin-bottom: 15px;
+}   
+    
+    
+    
+    
+    
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
